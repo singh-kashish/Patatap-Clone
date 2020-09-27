@@ -1,0 +1,8 @@
+<% posts.forEach(funtion(post){ %>
+	<li>
+	     <%= post.title %> - 
+		<strong>
+		    <%= post.author %>
+		</strong>
+</li>
+<% }) %>
